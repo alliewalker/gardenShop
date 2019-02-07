@@ -8,7 +8,7 @@ html{
 
 .container {
     width: 100vw;
-    background-color: hsla(48, 78%, 52%, 0.8);
+    background-color: hsla(48, 73%, 46%, 0.8);
 }
 
 .navbar-brand {
@@ -21,7 +21,6 @@ html{
 .nav-link {
     color: hsl(205, 29%, 76%);
     margin-left:1vw; 
-    /* margin-bottom: 2vw; */
     display: inline;
     font-size: 1.4em;
 }
