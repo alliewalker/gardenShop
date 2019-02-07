@@ -1,0 +1,11 @@
+<div class="deck">
+  <div class="card" *ngFor="let product of products">
+    <div class="cardContainer">
+      <h1><em>{{ product.product_name }}</em></h1>
+      <h3>{{ product.product_description }}</h3>
+      <p>{{ product.product_price | currency }}</p>
+      <img [src]="product.product_image" />
+      <p>{{ product.product_userUid }}</p>
+      </div>
+    </div>
+  </div>
