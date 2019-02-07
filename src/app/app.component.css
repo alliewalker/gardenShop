@@ -1,11 +1,21 @@
+html{
+    background-image: url('../assets/background-bright-close-up-413195.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .container {
     width: 100vw;
-    background-color: hsla(214, 28%, 32%, 0.7);
+    background-color: hsla(48, 78%, 52%, 0.8);
 }
 
 .navbar-brand {
-    font-size: 2.7em;
+    font-size: 3.7em;
+    font-weight: 800;
     font-family: 'Ubuntu', sans-serif;
+    color: hsl(240, 1%, 13%)
 }
 
 .nav-link {
@@ -17,17 +27,23 @@
 }
 
 button{
-    background-color: hsla(214, 28%, 32%);
+    background-color: hsla(214, 30%, 54%, 0.8);
     border-radius: .2em;
     position: relative;
     font-family: 'Ubuntu', sans-serif;
     border: none;
     text-decoration: none;
+    text-align: center;
+}
+
+#button {
+    left: 80vw;
+    position: relative;
 }
 
 footer {
     width: 100vw;
-    background-color: hsla(214, 28%, 32%, 0.7);
+    background-color: hsla(48, 78%, 52%, 0.8);
     position: sticky;
     top: 100vh;
     text-align: center;
