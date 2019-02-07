@@ -8,7 +8,7 @@ import { HomeAndNavComponent } from './home-and-nav/home-and-nav.component';
 @NgModule({
   declarations: [
     AppComponent,
-    HomeAndNavComponent
+    HomeAndNavComponent,
   ],
   imports: [
     BrowserModule,
