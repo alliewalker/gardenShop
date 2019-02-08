@@ -1,0 +1,44 @@
+.content{
+    background-color: rgba(168, 179, 15, 0.8);
+    display: inline-block;
+    box-shadow: 0 0.5em 1em rgba(100, 80, 214, 0.2);
+    text-align: center;
+    margin-top: -0.7rem;
+}
+
+/* .main{
+    background-image: url('../../assets/background-bright-close-up-413195\ copy.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+
+} */
+
+h1{
+    font-size: 2.9rem;
+    padding: 2em;
+    color: rgb(196, 37, 51);
+    margin-left: 22.0rem;
+}
+    /* .deck {
+        display: inline-block;
+    }
+    
+    .card {
+        box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0, 0.2);
+        transition: 0.3s;
+        width: 30vw;
+        text-align: center;
+    }
+    
+    .card:hover {
+        box-shadow: 0.5em 0.5em 2em rgba(68, 38, 138, 0.2);
+    }
+    
+    .cardContainer {
+        padding: 1em 2em;
+    }
+} */
