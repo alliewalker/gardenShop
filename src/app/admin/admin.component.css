@@ -1,7 +1,7 @@
 form {
     display: flex;
     justify-content: center;
-    background-color: #4d596f;
+    background-color: #FFFFFF;
     position: absolute;
     padding: 10px;
     margin: 6px;
@@ -18,11 +18,11 @@ form {
     align-items: center;
     padding: 5px;
     margin: 5px;
-    color: #FFFFFF;
+    color: #086324;
 }
 
 .button {
-    background-color: blue;
+    background-color: #4d596f;
     color: white;
     height: 7vh;
     width: 50px;
