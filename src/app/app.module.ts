@@ -7,11 +7,10 @@ import { AppComponent } from './app.component';
 
 import { AdminComponent } from './admin/admin.component';
 
-
-
 @NgModule({
   declarations: [
     AppComponent,
+    AdminComponent,
   ],
   imports: [
     BrowserModule,

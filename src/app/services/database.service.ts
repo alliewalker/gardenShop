@@ -10,6 +10,6 @@ export class DatabaseService {
   constructor(private _http: HttpClient) { }
   
   login(userInfo): any {
-    console.log("login fectch service works " + userInfo.email + " " + userInfo.password);
+    console.log("login fetch service works " + userInfo.email + " " + userInfo.password);
   }
 }
