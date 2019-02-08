@@ -6,7 +6,9 @@ import { AdminComponent } from '../app/admin/admin.component';
 
 const routes: Routes = [
   { path: 'AdminComponent', component: AdminComponent },
-  { path: 'product', component: ProductsComponent}]
+  { path: 'product', component: ProductsComponent},
+  {path: 'about', component: AboutComponent}
+]
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
