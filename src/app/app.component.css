@@ -8,25 +8,25 @@ html{
 
 .container {
     width: 100vw;
-    background-color: hsla(48, 73%, 46%, 0.8);
+    background-color: #EFEFEF;
 }
 
 .navbar-brand {
     font-size: 3.7em;
     font-weight: 800;
     font-family: 'Ubuntu', sans-serif;
-    color: hsl(240, 1%, 13%)
+    color: #FF3B3F
 }
 
 .nav-link {
-    color: hsl(205, 29%, 76%);
+    color: #CAEBF2;
     margin-left:1vw; 
     display: inline;
     font-size: 1.4em;
 }
 
 button{
-    background-color: hsla(214, 30%, 54%, 0.8);
+    background-color: #A9A9A9;
     border-radius: .2em;
     position: relative;
     font-family: 'Ubuntu', sans-serif;
@@ -42,7 +42,7 @@ button{
 
 footer {
     width: 100vw;
-    background-color: hsla(48, 78%, 52%, 0.8);
+    background-color: #EFEFEF;
     position: sticky;
     top: 100vh;
     text-align: center;
