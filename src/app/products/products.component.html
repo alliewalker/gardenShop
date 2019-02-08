@@ -1,11 +1,13 @@
+<div id="body">
 <div class="deck">
   <div class="card" *ngFor="let product of products">
     <div class="cardContainer">
       <h1><em>{{ product.product_name }}</em></h1>
-      <h3>{{ product.product_description }}</h3>
-      <p>{{ product.product_price | currency }}</p>
+
+      <h3>{{ product.product_price | currency }}</h3>
       <img [src]="product.product_image" />
       <p>{{ product.product_userUid }}</p>
       </div>
     </div>
   </div>
+</div>
