@@ -1,7 +1,32 @@
-form {
-    display: flex;
-    justify-content: center;
-    background-color: #4d596f;
+html{
+    background-image: url('../assets/background-bright-close-up-413195.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    margin-left: 1vw;
+    margin-top: 1.5em;
+    border-radius: 100%;
+}
+
+.container {
+    width: 100vw;
+    background-color: #FFFFFF;
+    max-height: 17vh;
+}
+
+.navbar-brand {
+    font-size: 5.7em;
+    font-weight: 900;
+    font-family: 'Amatic SC', cursive;
+    color: #086324;
+    margin-left: 0.5em;
+    top: 0.7em;
+    text-shadow: 0.01em 0.01em 0.11em hsl(50, 10%, 40%);
+>>>>>>> cfdb856d0a37ad37f13ea349903d6cadc10099ed
     position: absolute;
     padding: 10px;
     margin: 6px;

@@ -1,12 +1,33 @@
+form {
+    display: flex;
+    justify-content: center;
+    background-color: #4d596f;
+    position: absolute;
+    padding: 10px;
+    margin: 6px;
+    height: 10vh;
+    width: 35vw;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%)
+}
+
 .fields {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 5px;
     margin: 5px;
+    color: #FFFFFF;
 }
 
 .button {
     background-color: blue;
     color: white;
+    height: 7vh;
+    width: 50px;
+    margin-top: 1em;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 4px
 }

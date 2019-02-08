@@ -12,6 +12,7 @@ import { DeleteProductComponent } from './delete-product/delete-product.componen
 
 import { AdminComponent } from './admin/admin.component';
 
+<<<<<<< HEAD
 
 >>>>>>> c1f5b0d2180eafb054bca8cc1840692398e1e22f
 
@@ -25,6 +26,14 @@ import { AdminComponent } from './admin/admin.component';
     DeleteProductComponent
 
 >>>>>>> c1f5b0d2180eafb054bca8cc1840692398e1e22f
+=======
+@NgModule({
+  declarations: [
+    AppComponent,
+    AdminComponent,
+    ProductsComponent,
+    DeleteProductComponent
+>>>>>>> cfdb856d0a37ad37f13ea349903d6cadc10099ed
   ],
   imports: [
     BrowserModule,
