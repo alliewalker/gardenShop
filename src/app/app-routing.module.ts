@@ -1,12 +1,10 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { HomeAndNavComponent } from './home-and-nav/home-and-nav.component';
+
+import { AdminComponent } from '../app/admin/admin.component';
 
 const routes: Routes = [
-  {path: '', redirectTo: '*', pathMatch: 'full'},
-  {path: 'home-and-nav', component: HomeAndNavComponent},
-  
-];
+  { path: 'AdminComponent', component: AdminComponent }]
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
