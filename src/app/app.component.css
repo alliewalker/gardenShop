@@ -6,43 +6,63 @@ html{
     background-size: cover;
 }
 
+.logo {
+    margin-left: 1vw;
+    margin-top: 1.5em;
+    border-radius: 100%;
+}
+
 .container {
     width: 100vw;
-    background-color: #EFEFEF;
+    background-color: #FFFFFF;
+    max-height: 17vh;
 }
 
 .navbar-brand {
-    font-size: 3.7em;
-    font-weight: 800;
-    font-family: 'Ubuntu', sans-serif;
-    color: #FF3B3F
+    font-size: 4.7em;
+    font-weight: 900;
+    font-family: 'Amatic SC', cursive;
+    color: #086324;
+    margin-left: 0.5em;
+    top: 0.9em;
+    text-shadow: 0.01em 0.01em 0.11em hsl(50, 10%, 40%);
+    position: absolute;
 }
 
 .nav-link {
-    color: #CAEBF2;
-    margin-left:1vw; 
+    color: #4d596f;
+    margin-left: 1vw; 
     display: inline;
-    font-size: 1.4em;
+    font-size: 1.6em;
+    text-decoration-line: none;
 }
 
 button{
-    background-color: #A9A9A9;
-    border-radius: .2em;
+    background-color: transparent;
+    border-radius: .4em;
     position: relative;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Rancho', cursive;
     border: none;
     text-decoration: none;
     text-align: center;
 }
 
+button:hover{
+    transition: 100ms;
+    box-shadow: 0.1em 0.1em 0.2em hsl(100, 50%, 9%);
+    background-color: hsla(0, 0%, 96%, 0.5)
+}
+
 #button {
     left: 80vw;
     position: relative;
+    top: -3.6em;
+    font-size: 2.2em
 }
 
 footer {
     width: 100vw;
-    background-color: #EFEFEF;
+    background-color: #FFFFFF;
     position: sticky;
     top: 100vh;
     text-align: center;
