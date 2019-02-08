@@ -2,9 +2,11 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { ProductsComponent } from './products/products.component';
 
+import { AdminComponent } from '../app/admin/admin.component';
+
 const routes: Routes = [
-  {path: "product", component: ProductsComponent}
-];
+  { path: 'AdminComponent', component: AdminComponent },
+  { path: 'product', component: ProductsComponent}]
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
