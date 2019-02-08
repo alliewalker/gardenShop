@@ -1,6 +1,6 @@
 <form (click)="logIn(email.value,password.value ); email.value=''; false;">
    <div class="fields">
-   <label for="email">Email</label>
+   <label for="email">Email: </label>
    <select 
       #email 
       required>
@@ -12,7 +12,7 @@
       </select>
    </div>
    <div class="fields">
-   <label for="password">Password</label>
+   <label for="password">Password: </label>
    <input type="password" #password required>
    </div>
    <button class="button" type="submit"
