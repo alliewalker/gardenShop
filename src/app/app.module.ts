@@ -4,6 +4,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ProductsComponent } from './products/products.component';
+import { DeleteProductComponent } from './delete-product/delete-product.component';
 
 import { AdminComponent } from './admin/admin.component';
 
@@ -11,6 +13,8 @@ import { AdminComponent } from './admin/admin.component';
   declarations: [
     AppComponent,
     AdminComponent,
+    ProductsComponent,
+    DeleteProductComponent
   ],
   imports: [
     BrowserModule,
