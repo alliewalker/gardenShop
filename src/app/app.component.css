@@ -19,12 +19,12 @@ html{
 }
 
 .navbar-brand {
-    font-size: 4.7em;
+    font-size: 5.7em;
     font-weight: 900;
     font-family: 'Amatic SC', cursive;
     color: #086324;
     margin-left: 0.5em;
-    top: 0.9em;
+    top: 0.7em;
     text-shadow: 0.01em 0.01em 0.11em hsl(50, 10%, 40%);
     position: absolute;
 }
