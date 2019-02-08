@@ -13,8 +13,8 @@ import { DeleteProductComponent } from './delete-product/delete-product.componen
 @NgModule({
   declarations: [
     AppComponent,
-    AboutComponent,
     AdminComponent,
+    AboutComponent,
     ProductsComponent,
     DeleteProductComponent
   ],
