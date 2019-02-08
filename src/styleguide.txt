@@ -1,0 +1,24 @@
+colors: {
+    #FFFFFF
+    #086324
+    #4d596f
+}
+text shadow for title: {
+    hsl(50, 10%, 40%)
+}
+
+box shadow for button: {
+    hsl(100, 50%, 9%)
+}
+
+button hover color: {
+    hsla(0, 0%, 96%, 0.5)
+}
+
+title font: {
+    font-family: 'Amatic SC', cursive 
+}
+
+button font: {
+    font-family: 'Rancho', cursive
+}

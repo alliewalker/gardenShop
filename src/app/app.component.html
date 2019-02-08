@@ -1,7 +1,32 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <AdminComponent></AdminComponent>
+
+<html>
+  
+<nav class="navbar navbar-fixed-top">
+  <div class="container">
+    <div class="iconAndTitle">
+      <img class="logo" src='../assets/logo (1).png' />
+      <a class="navbar-brand ">Nature's Garden</a>
+    </div>
+    <div class="links">
+      <ul class="nav navbar-nav" routerLinkActive="active">
+          <!-- <li class="nav-item"><a class="nav-link" routerLink="/home">Home</a></li> -->
+          <button id='button' type="button" class="btn btn-secondary nav-link"><a class="nav-link" routerLink="products">Products</a></button>
+          <button id='button' type="button" class="btn btn-secondary nav-link"><a class="nav-link" routerLink="about">About</a></button>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div>
+
+</div>
+
+<footer>
+  <button id='button2' type="button" class='btn btn-secondary nav-link'><a class='nav-link' >Contact</a></button>
+  <button id='button2' type="button" class='btn btn-secondary nav-link'><a class='nav-link' routerLink='adminLogin'>Admin Login</a></button>
+</footer>
+
+
+
+>>>>>>> 33dbdd705367993176e7a0388178fc1246be2e0c
 <router-outlet></router-outlet>
