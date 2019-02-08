@@ -27,6 +27,7 @@ html{
     top: 0.7em;
     text-shadow: 0.01em 0.01em 0.11em hsl(50, 10%, 40%);
     position: absolute;
+    text-decoration-line: none;
 }
 
 .nav-link {
