@@ -8,4 +8,8 @@ export class DatabaseService {
    private dbUrl = 'https://efa-gardenapp-backend.herokuapp.com/api/auth/login';
 
   constructor(private _http: HttpClient) { }
+  
+  login(userInfo): any {
+    console.log("login fectch service works " + userInfo.email + " " + userInfo.password);
+  }
 }

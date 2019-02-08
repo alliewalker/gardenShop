@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { DatabaseService } from '../services/database.service';
 import { User } from '../models/user';
+
 
 @Component({
   selector: 'app-admin',
@@ -7,9 +9,10 @@ import { User } from '../models/user';
   styleUrls: ['./admin.component.css']
 })
 export class AdminComponent implements OnInit {
+     users: User[];
      email = '';
      password = '';
-  constructor() { }
+  constructor(private databaseService: DatabaseService) { }
 
   ngOnInit() {
   }
@@ -20,6 +23,10 @@ export class AdminComponent implements OnInit {
       email: email,
       password: password
     }
+    this.databaseService.login(userInfo)
+    .subscribe(user => {
+      this.users.push(user);
+    })
      
   }
 }
