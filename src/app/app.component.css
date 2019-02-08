@@ -1,18 +1,31 @@
-.deck {
-    display: inline-block;
+form {
+    display: flex;
+    justify-content: center;
+    background-color: #4d596f;
+    position: absolute;
+    padding: 10px;
+    margin: 6px;
+    height: 10vh;
+    width: 35vw;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%)
 }
-
-.card {
-    box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0, 0.2);
-    transition: 0.3s;
-    width: 30vw;
+.fields {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+    color: #FFFFFF;
+}
+.button {
+    background-color: blue;
+    color: white;
+    height: 7vh;
+    width: 50px;
+    margin-top: 1em;
     text-align: center;
-}
-
-.card:hover {
-    box-shadow: 0.5em 0.5em 2em rgba(68, 38, 138, 0.2);
-}
-
-.cardContainer {
-    padding: 1em 2em;
+    border: 1px solid black;
+    border-radius: 4px
 }

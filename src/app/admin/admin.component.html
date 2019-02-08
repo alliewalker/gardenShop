@@ -1,0 +1,20 @@
+<form (click)="logIn(email.value,password.value ); email.value=''; false;">
+   <div class="fields">
+   <label for="email">Email</label>
+   <select 
+      #email 
+      required>
+      <option>atyler@gmail.com</option>
+      <option>mcook@gmail.com</option>
+      <option>mhowell@gmail.com</option>
+      <option>twest@gmail.com</option>
+      <option>vray@gmail.com</option>
+      </select>
+   </div>
+   <div class="fields">
+   <label for="password">Password</label>
+   <input type="password" #password required>
+   </div>
+   <button class="button" type="submit"
+      >Login</button>
+</form>
